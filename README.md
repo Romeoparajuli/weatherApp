@@ -1,5 +1,3 @@
-
-```markdown
 # Weather App
 
 ## Overview
@@ -44,103 +42,96 @@ Clone the repository from GitHub using the following command:
 
 ```bash
 git clone https://github.com/Romeoparajuli/weatherApp.git
-```
-
-### 2. Navigate to the Project Directory
-
+2. Navigate to the Project Directory
 Change to the project directory:
-
-```bash
 cd weatherApp
-```
+3. Open the index.html File
+Open the index.html file in your browser to run the app. You can simply double-click the index.html file or open it using your browser's "Open File" option.
 
-### 3. Open the `index.html` File
+How to Use
+Search for a City: Enter the name of a city in the search input box.
 
-Open the `index.html` file in your browser to run the app. You can simply double-click the `index.html` file or open it using your browser's "Open File" option.
+Click the Search Button: Hit the search button to fetch the weather details for the entered city.
 
-## How to Use
+View Weather Details: The app will display:
 
-1. **Search for a City**: Enter the name of a city in the search input box.
-2. **Click the Search Button**: Hit the search button to fetch the weather details for the entered city.
-3. **View Weather Details**: The app will display:
-   - The current temperature in °C
-   - The humidity percentage
-   - The wind speed in km/h
-   - A weather icon corresponding to the current weather condition (e.g., sunny, cloudy, rainy).
-4. **Handle Errors**: If the city entered is not found, an alert will appear indicating that the city is not recognized.
+The current temperature in °C
 
-## API Integration
+The humidity percentage
 
-The app integrates with the **OpenWeatherMap API**, which provides real-time weather data. The API endpoint used is:
+The wind speed in km/h
 
-```
+A weather icon corresponding to the current weather condition (e.g., sunny, cloudy, rainy).
+
+Handle Errors: If the city entered is not found, an alert will appear indicating that the city is not recognized.
+
+API Integration
+The app integrates with the OpenWeatherMap API, which provides real-time weather data. The API endpoint used is:
+
+bash
+Copy
+Edit
 https://api.openweathermap.org/data/2.5/weather?units=metric&q={city_name}&appid={API_KEY}
-```
+To use the OpenWeatherMap API, you must replace the placeholder {API_KEY} in the script.js file with your own API key, which you can obtain by signing up for a free account at OpenWeatherMap.
 
-To use the OpenWeatherMap API, you must replace the placeholder `{API_KEY}` in the `script.js` file with your own API key, which you can obtain by signing up for a free account at [OpenWeatherMap](https://openweathermap.org/api).
+Example API Request:
+For the city of London, the request will look like:
 
-### Example API Request:
-
-For the city of **London**, the request will look like:
-
-```
+bash
+Copy
+Edit
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=your_api_key
-```
-
 The API will return a JSON response containing the weather information, which is then displayed on the app.
 
-## File Structure
-
+File Structure
 The project contains the following files and folders:
 
-- **`index.html`**: The main HTML file that defines the structure and layout of the app.
-- **`script.js`**: The JavaScript file responsible for fetching data from the OpenWeatherMap API, handling the city search, and updating the UI.
-- **`style.css`**: The CSS file that styles the app's components, including layout, color scheme, and responsiveness.
-- **`images/`**: A folder containing weather-related images/icons used in the app (e.g., rain.png, clear.png, humidity.png, etc.).
+index.html: The main HTML file that defines the structure and layout of the app.
 
-## License
+script.js: The JavaScript file responsible for fetching data from the OpenWeatherMap API, handling the city search, and updating the UI.
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+style.css: The CSS file that styles the app's components, including layout, color scheme, and responsiveness.
 
-## Acknowledgements
+images/: A folder containing weather-related images/icons used in the app (e.g., rain.png, clear.png, humidity.png, etc.).
 
-- [OpenWeatherMap](https://openweathermap.org/api) for providing the free weather API.
-- [Poppins Font](https://fonts.google.com/specimen/Poppins) for the typography used in the design of the app.
-- [Unsplash](https://unsplash.com/) for the free and beautiful images used in the app (if applicable).
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contributions
+Acknowledgements
+OpenWeatherMap for providing the free weather API.
 
-Contributions to this project are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request. 
+Poppins Font for the typography used in the design of the app.
+
+Unsplash for the free and beautiful images used in the app (if applicable).
+
+Contributions
+Contributions to this project are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
 To contribute:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with a meaningful commit message.
-4. Push your changes to your forked repository.
-5. Open a pull request to merge your changes into the main repository.
+Fork the repository.
 
-## Contact
+Create a new branch for your feature or bug fix.
 
+Make your changes and commit them with a meaningful commit message.
+
+Push your changes to your forked repository.
+
+Open a pull request to merge your changes into the main repository.
+
+Contact
 For any questions or inquiries, please contact:
 
-- **Email**: milankit123@gmail.com
-- **GitHub Profile**: [https://github.com/Romeoparajuli](https://github.com/Romeoparajuli)
+Email: milankit123@gmail.com
 
----
+GitHub Profile: https://github.com/Romeoparajuli
 
-### Screenshots (Optional)
-
+Screenshots (Optional)
 You can include a section with screenshots of your app in use. For example:
 
-![Weather App Screenshot](screenshots/weather-app-screenshot.png)
 
----
-
-### Future Enhancements (Optional)
-
-- Add a feature to display the weather forecast for the next few days.
-- Provide more weather details, such as sunrise/sunset times, UV index, etc.
-- Enhance the UI with animations or better styling for a more polished experience.
-```
+Future Enhancements (Optional)
+Add a feature to display the weather forecast for the next few days.
+Provide more weather details, such as sunrise/sunset times, UV index, etc.
+Enhance the UI with animations or better styling for a more polished experience.
 
