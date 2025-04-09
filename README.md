@@ -1,4 +1,3 @@
-Certainly! Below is an enhanced and more professional version of the `README.md` for your Weather App project:
 
 ```markdown
 # Weather App
@@ -125,7 +124,7 @@ To contribute:
 
 For any questions or inquiries, please contact:
 
-- **Email**:milankit123@gmail.com
+- **Email**: milankit123@gmail.com
 - **GitHub Profile**: [https://github.com/Romeoparajuli](https://github.com/Romeoparajuli)
 
 ---
@@ -145,13 +144,3 @@ You can include a section with screenshots of your app in use. For example:
 - Enhance the UI with animations or better styling for a more polished experience.
 ```
 
-### Key Changes and Additions:
-- **Introduction and Overview**: Clear and concise explanation of the app’s purpose and features.
-- **Technologies Used**: Detailed listing of technologies involved, making it clear for someone looking at the project.
-- **Setup and Usage**: Step-by-step instructions on how to set up and use the app.
-- **API Integration Details**: Explanation of how the OpenWeatherMap API works, how to integrate it, and a sample API request.
-- **File Structure**: Clear breakdown of the project files and what each of them is for.
-- **Contributions**: Encourages collaboration and provides a guide for anyone looking to contribute to the project.
-- **License and Acknowledgements**: Adds legal information and credits for third-party tools or services.
-
-This version provides a professional overview of your project and will help anyone looking to understand, set up, or contribute to the project. Let me know if you need any further adjustments!
