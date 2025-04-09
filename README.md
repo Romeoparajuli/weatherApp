@@ -42,10 +42,13 @@ Clone the repository from GitHub using the following command:
 
 ```bash
 git clone https://github.com/Romeoparajuli/weatherApp.git
+```
 2. Navigate to the Project Directory
+   
 Change to the project directory:
 cd weatherApp
-3. Open the index.html File
+
+4. Open the index.html File
 Open the index.html file in your browser to run the app. You can simply double-click the index.html file or open it using your browser's "Open File" option.
 
 How to Use
@@ -68,19 +71,17 @@ Handle Errors: If the city entered is not found, an alert will appear indicating
 API Integration
 The app integrates with the OpenWeatherMap API, which provides real-time weather data. The API endpoint used is:
 
-bash
-Copy
-Edit
+```bash
 https://api.openweathermap.org/data/2.5/weather?units=metric&q={city_name}&appid={API_KEY}
+```
 To use the OpenWeatherMap API, you must replace the placeholder {API_KEY} in the script.js file with your own API key, which you can obtain by signing up for a free account at OpenWeatherMap.
 
 Example API Request:
 For the city of London, the request will look like:
 
-bash
-Copy
-Edit
+```bash
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=your_api_key
+```
 The API will return a JSON response containing the weather information, which is then displayed on the app.
 
 File Structure
