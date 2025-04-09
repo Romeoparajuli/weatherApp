@@ -53,12 +53,19 @@ Open the index.html file in your browser to run the app. You can simply double-c
 
 How to Use
 a.Search for a City: Enter the name of a city in the search input box.
+
 b.Click the Search Button: Hit the search button to fetch the weather details for the entered city.
+
 c.View Weather Details: The app will display:
+
 d.The current temperature in °C
+
 e.The humidity percentage
+
 f.The wind speed in km/h
+
 g.A weather icon corresponding to the current weather condition (e.g., sunny, cloudy, rainy).
+
 h.Handle Errors: If the city entered is not found, an alert will appear indicating that the city is not recognized.
 
 API Integration
@@ -81,8 +88,11 @@ File Structure
 The project contains the following files and folders:
 
 index.html: The main HTML file that defines the structure and layout of the app.
+
 script.js: The JavaScript file responsible for fetching data from the OpenWeatherMap API, handling the city search, and updating the UI.
+
 style.css: The CSS file that styles the app's components, including layout, color scheme, and responsiveness.
+
 images/: A folder containing weather-related images/icons used in the app (e.g., rain.png, clear.png, humidity.png, etc.).
 
 
@@ -105,13 +115,16 @@ Fork the repository.
 
 Create a new branch for your feature or bug fix.
 Make your changes and commit them with a meaningful commit message.
+
 Push your changes to your forked repository.
+
 Open a pull request to merge your changes into the main repository.
 
 ## Contact
 For any questions or inquiries, please contact:
 
 Email: milankit123@gmail.com
+
 GitHub Profile: https://github.com/Romeoparajuli
 
 Screenshots (Optional)
@@ -121,6 +134,8 @@ Screenshots (Optional)
 
 ##Future Enhancements (Optional)
 Add a feature to display the weather forecast for the next few days.
+
 Provide more weather details, such as sunrise/sunset times, UV index, etc.
+
 Enhance the UI with animations or better styling for a more polished experience.
 
