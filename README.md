@@ -52,21 +52,14 @@ cd weatherApp
 Open the index.html file in your browser to run the app. You can simply double-click the index.html file or open it using your browser's "Open File" option.
 
 How to Use
-Search for a City: Enter the name of a city in the search input box.
-
-Click the Search Button: Hit the search button to fetch the weather details for the entered city.
-
-View Weather Details: The app will display:
-
-The current temperature in °C
-
-The humidity percentage
-
-The wind speed in km/h
-
-A weather icon corresponding to the current weather condition (e.g., sunny, cloudy, rainy).
-
-Handle Errors: If the city entered is not found, an alert will appear indicating that the city is not recognized.
+a.Search for a City: Enter the name of a city in the search input box.
+b.Click the Search Button: Hit the search button to fetch the weather details for the entered city.
+c.View Weather Details: The app will display:
+d.The current temperature in °C
+e.The humidity percentage
+f.The wind speed in km/h
+g.A weather icon corresponding to the current weather condition (e.g., sunny, cloudy, rainy).
+h.Handle Errors: If the city entered is not found, an alert will appear indicating that the city is not recognized.
 
 API Integration
 The app integrates with the OpenWeatherMap API, which provides real-time weather data. The API endpoint used is:
@@ -88,24 +81,22 @@ File Structure
 The project contains the following files and folders:
 
 index.html: The main HTML file that defines the structure and layout of the app.
-
 script.js: The JavaScript file responsible for fetching data from the OpenWeatherMap API, handling the city search, and updating the UI.
-
 style.css: The CSS file that styles the app's components, including layout, color scheme, and responsiveness.
-
 images/: A folder containing weather-related images/icons used in the app (e.g., rain.png, clear.png, humidity.png, etc.).
 
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 OpenWeatherMap for providing the free weather API.
 
 Poppins Font for the typography used in the design of the app.
 
 Unsplash for the free and beautiful images used in the app (if applicable).
 
-Contributions
+##Contributions
 Contributions to this project are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
 To contribute:
@@ -113,25 +104,22 @@ To contribute:
 Fork the repository.
 
 Create a new branch for your feature or bug fix.
-
 Make your changes and commit them with a meaningful commit message.
-
 Push your changes to your forked repository.
-
 Open a pull request to merge your changes into the main repository.
 
-Contact
+## Contact
 For any questions or inquiries, please contact:
 
 Email: milankit123@gmail.com
-
 GitHub Profile: https://github.com/Romeoparajuli
 
 Screenshots (Optional)
-You can include a section with screenshots of your app in use. For example:
+![image](https://github.com/user-attachments/assets/0482d94d-6048-4415-8a2a-359ad5efda24)
 
 
-Future Enhancements (Optional)
+
+##Future Enhancements (Optional)
 Add a feature to display the weather forecast for the next few days.
 Provide more weather details, such as sunrise/sunset times, UV index, etc.
 Enhance the UI with animations or better styling for a more polished experience.
