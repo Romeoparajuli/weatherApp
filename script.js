@@ -31,6 +31,9 @@ const weatherIcon = document.querySelector(".weather-icon");
  * @param {string} city - Name of the city entered by the user
  */
 async function checkWeather(city) {
+    // Hide error message when user starts a new search
+    document.querySelector(".error").style.display = "none";
+    
     // Prevent empty search requests
     if (!city) {
         alert("Please enter a city name.");
@@ -45,6 +48,13 @@ async function checkWeather(city) {
 
         // Handle case when city is not found (404 error from API)
         if (data.cod === "404") {
+            // Show error message and hide weather info
+            document.querySelector(".error").style.display = "block";
+            document.querySelector(".weather").style.display = "none";
+            return;
+        }
+         // Handle case when city is not found (404 error from API)
+         if (data.cod === "404") {
             alert("City not found. Please enter a valid city name.");
             return;
         }
@@ -83,6 +93,10 @@ async function checkWeather(city) {
                 weatherIcon.src = "images/default.png";
                 break;
         }
+
+        // Show weather data section and hide error message
+        document.querySelector(".weather").style.display = "block";
+        document.querySelector(".error").style.display = "none";
 
     } catch (error) {
         // Catch any unexpected error (e.g., network issues)

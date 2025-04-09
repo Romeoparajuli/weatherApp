@@ -106,6 +106,7 @@ weatherApp/
 ## 🖼️ Screenshots
 
 > ![Weather App Screenshot](https://github.com/user-attachments/assets/0482d94d-6048-4415-8a2a-359ad5efda24)
+<video controls src="20250409-0505-27.6243414.mp4" title="Title"></video>
 
 ---
 

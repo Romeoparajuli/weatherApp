@@ -122,3 +122,16 @@ body {
     font-size: 28px; /* Prominent font size */
     margin-top: -6px; /* Slight negative margin to align better visually */
 }
+.weather{
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: red; /* Red color for error text */
+    font-weight: bold; /* Make the error message bold */
+}
