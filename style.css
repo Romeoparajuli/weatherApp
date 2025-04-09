@@ -1,0 +1,124 @@
+/* ===============================
+   RESET & GLOBAL STYLES
+================================= */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+}
+
+body {
+    background: #222; /* Dark background for contrast */
+}
+
+/* ===============================
+   CARD CONTAINER
+================================= */
+.card {
+    width: 90%; /* Responsive width for smaller screens */
+    max-width: 470px; /* Maximum width to maintain design consistency */
+    margin: 100px auto 0; /* Center the card horizontally, add top spacing */
+    padding: 40px 35px; /* Inner spacing for content */
+    border-radius: 20px; /* Rounded corners for modern look */
+    text-align: center; /* Center align text inside */
+    color: #fff; /* Text color white for dark/light contrast */
+    background: linear-gradient(135deg, #00feba, #5b548a); /* Attractive gradient background */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+/* ===============================
+   SEARCH SECTION
+================================= */
+.search {
+    display: flex; /* Align children in a row */
+    align-items: center; /* Vertically center input and button */
+    justify-content: space-between; /* Space between input and button */
+    width: 100%; /* Take full container width */
+    gap: 10px; /* Space between input and button */
+}
+
+.search input {
+    flex-grow: 1; /* Input takes remaining space */
+    min-width: 0; /* Prevent flex overflow issues */
+    padding: 10px 20px; /* Comfortable typing padding */
+    height: 50px; /* Fixed height */
+    font-size: 16px; /* Readable font */
+    color: #555; /* Slightly dark text */
+    background: #ebfffc; /* Light background for input */
+    border: none; /* Remove default border */
+    outline: none; /* Disable outline on focus */
+    border-radius: 30px; /* Smooth rounded corners */
+}
+
+.search button {
+    width: 50px;
+    height: 50px;
+    background: #ebfffc; /* Same background as input for consistency */
+    border: none;
+    outline: none;
+    border-radius: 50%; /* Circular button */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the icon */
+}
+
+.search button img {
+    width: 20px; /* Set icon size */
+}
+
+/* ===============================
+   WEATHER ICON DISPLAY
+================================= */
+.weather-icon {
+    width: 170px;
+    margin: 30px auto; /* Vertical spacing + horizontal centering */
+}
+
+/* ===============================
+   WEATHER TEMPERATURE & CITY
+================================= */
+.weather h1 {
+    font-size: 80px; /* Large temp display */
+    font-weight: 500; /* Slightly bold */
+    margin-bottom: 10px; /* Space below */
+}
+
+.weather h2 {
+    font-size: 45px; /* City name */
+    font-weight: 400;
+    margin-top: 0; /* Reset to remove any unwanted spacing */
+}
+
+/* ===============================
+   WEATHER DETAILS SECTION
+================================= */
+.details {
+    display: flex; /* Side-by-side details */
+    align-items: center; /* Align vertically */
+    justify-content: space-between; /* Push columns to edges */
+    padding: 0 20px; /* Horizontal spacing */
+    margin-top: 50px; /* Separate from weather info */
+}
+
+/* ===============================
+   INDIVIDUAL COLUMN STYLE
+================================= */
+.col {
+    display: flex; /* Align icon and text horizontally */
+    align-items: center;
+    text-align: left; /* Align text to the left */
+}
+
+.col img {
+    width: 40px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Text styles for dynamic values */
+.humidity,
+.wind {
+    font-size: 28px; /* Prominent font size */
+    margin-top: -6px; /* Slight negative margin to align better visually */
+}

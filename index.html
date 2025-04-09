@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Weather App</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Card Container for the Weather App -->
+    <div class="card">
+
+        <!-- ========== SEARCH SECTION ========== -->
+        <div class="search">
+            <!-- Input field for user to enter city name -->
+            <input 
+                type="text" 
+                placeholder="Enter the city name" 
+                spellcheck="false"
+            >
+
+            <!-- Button to trigger search with a search icon -->
+            <button>
+                <img src="images/search.png" alt="Search">
+            </button>
+        </div>
+
+        <!-- ========== WEATHER DISPLAY SECTION ========== -->
+        <div class="weather">
+            <!-- Default weather icon shown before search -->
+            <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
+
+            <!-- Temperature value displayed here -->
+            <h1 class="temp">27°C</h1>
+
+            <!-- City name displayed here -->
+            <h2 class="city">*</h2>
+
+            <!-- Additional weather details (Humidity and Wind Speed) -->
+            <div class="details">
+
+                <!-- Humidity Column -->
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <!-- Wind Speed Column -->
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div> <!-- End of details -->
+
+        </div> <!-- End of weather -->
+
+    </div> <!-- End of card -->
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
